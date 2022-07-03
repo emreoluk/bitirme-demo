@@ -18,7 +18,7 @@ HUSKYLENS huskylens; //Olusturulan Huskylens objesi.
 
 /////////////////////////////// NRF24L01 ///////////////////////////////
 RF24 radio(nrfCEPin, nrfCSNPin); // CE, CSN
-const byte nrfHaberlesmeKanali[6] = "00007";
+const byte nrfHaberlesmeKanali[6] = "GRUP_2";
 uint16_t Xcm,Ycm;
 uint16_t iletilecekMesaj;
 
