@@ -122,7 +122,7 @@ void loop(){
 void NRFBaslangicAyarlariniYap(){
   radio.begin();                              //Starting the radio communication
   radio.openWritingPipe(nrfHaberlesmeKanali); //Setting the address at which we will send the data
-  radio.setPALevel(RF24_PA_MAX);              //You can set it as minimum or maximum depending on the distance between the transmitter and receiver. 
+  radio.setPALevel(RF24_PA_MIN);              //You can set it as minimum or maximum depending on the distance between the transmitter and receiver. 
   radio.setRetries(3,5);
 }
 
